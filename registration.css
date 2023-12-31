@@ -1,0 +1,118 @@
+/* -------- Registration Section --------*/
+
+.container{
+    padding: 20px;
+    position: relative;
+    right: -330px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    max-width: 700px;
+    width: 100%;
+    background: rgba(12,11,9,0.6);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.container header{
+    font-size: 1.5rem;
+    color: #CDA45E;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container .form{
+    margin-top: 30px;
+}
+
+.form .input-box{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box label{
+    color: #CDA45E;
+}
+
+.form :where(.input-box input, .select-box){
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0px 15px;
+}
+
+.input-box input:focus{
+    box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+.form .column{
+    display: flex;
+    column-gap: 15px;
+}
+
+.form .gender-box{
+    margin-top: 20px;
+}
+
+.gender-box h3{
+    color: #CDA45E;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+} 
+
+.form :where(.gender-option, .gender){
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.form .gender{
+    column-gap: 5px;
+}
+
+.gender input{
+    accent-color: #fff;
+}
+
+.form :where(.gender input, .gender label){
+    cursor: pointer;
+}
+
+.gender label{
+    color: #CDA45E;
+}
+
+.address :where(input, .select-box){
+    margin-top: 15px;
+}
+
+.select-box select{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #CDA45E;
+    font-size: 1rem;
+}
+
+.submit{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 8px;
+    margin-left: 300px;
+}
+
+.submit a{
+    color: #ec9909;
+}
+
+.submit h1{
+    font-weight: 500;
+    font-size: 500;
+}
